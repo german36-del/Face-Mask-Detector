@@ -26,16 +26,6 @@ import sklearn
 #       - Classification of new data
 #
 ####
-
-#### Authors:
-
-#    - Miguel Granero
-#    - German Ferrando
-#    - Lucas Rey
-#    - Adrian Llanos
-#    - Adrian Rubio
-#########################
-
 import numpy as np
 import os
 import cv2
