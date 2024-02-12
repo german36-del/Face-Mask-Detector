@@ -7,25 +7,6 @@
 #       - Classification of new data
 #
 ####
-
-import numpy as np
-import os
-import cv2
-import pickle
-import mediapipe as mp
-import FMD_preprocessing as pp
-import pandas as pd
-
-import sklearn 
-########################
-#
-#      --- - FACEMASK DETECTOR - ---
-#   
-#   Classification functions
-#       - Training by the pre-parsed data in preprocessing
-#       - Classification of new data
-#
-####
 import numpy as np
 import os
 import cv2
@@ -35,8 +16,9 @@ import FMD_preprocessing as pp
 import pandas as pd
 import sklearn
 import sklearn.naive_bayes
-from sklearn.model_selection import train_test_split
 import seaborn as sns
+
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn import metrics
 from sklearn.metrics import accuracy_score
